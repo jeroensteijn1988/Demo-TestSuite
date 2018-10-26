@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<div "result">the browser is opened and showing the intranet homepage (PASSED : 7s)</div>]]>
+      <![CDATA[<div "result">the browser is opened and showing the intranet homepage (PASSED : 5s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">user logs on with valid credentials (PASSED : 1s)</div>]]>
@@ -14,19 +14,19 @@
       <![CDATA[<div "result">the homepage is displayed (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9655" started-at="2018-10-26T07:46:15Z" finished-at="2018-10-26T07:46:24Z">
+  <suite name="Default suite" duration-ms="7645" started-at="2018-10-26T11:48:12Z" finished-at="2018-10-26T11:48:20Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9655" started-at="2018-10-26T07:46:15Z" finished-at="2018-10-26T07:46:24Z">
+    <test name="Default test" duration-ms="7645" started-at="2018-10-26T11:48:12Z" finished-at="2018-10-26T11:48:20Z">
       <class name="runner.TestrunnerTestNG">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="setUpClass" is-config="true" duration-ms="297" started-at="2018-10-26T07:46:15Z" finished-at="2018-10-26T07:46:15Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="setUpClass" is-config="true" duration-ms="222" started-at="2018-10-26T11:48:12Z" finished-at="2018-10-26T11:48:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="runScenario" duration-ms="8884" started-at="2018-10-26T07:46:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-26T07:46:24Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="runScenario" duration-ms="7206" started-at="2018-10-26T11:48:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-26T11:48:20Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<div "result">the browser is opened and showing the intranet homepage (PASSED : 7s)</div>]]>
+              <![CDATA[<div "result">the browser is opened and showing the intranet homepage (PASSED : 5s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">user logs on with valid credentials (PASSED : 1s)</div>]]>
@@ -54,7 +54,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="tearDownClass" is-config="true" duration-ms="243" started-at="2018-10-26T07:46:24Z" finished-at="2018-10-26T07:46:24Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="tearDownClass" is-config="true" duration-ms="69" started-at="2018-10-26T11:48:20Z" finished-at="2018-10-26T11:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
