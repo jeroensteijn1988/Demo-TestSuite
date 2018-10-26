@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/cucumber-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/cucumber-expressions-5.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/cucumber-html-0.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/cucumber-testng-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/datatable-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/datatable-dependencies-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/gherkin-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/okhttp-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/selenium-java-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/selenium-server-standalone-3.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/tag-expressions-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JAR Demo/testng-6.14.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
