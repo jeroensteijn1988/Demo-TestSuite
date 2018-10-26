@@ -24,6 +24,7 @@ driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 driver.manage().window().maximize();
 driver.get(Messages.getString("Inloggen_stepdefinition.0")); //$NON-NLS-1$
 System.out.println(Messages.getString("Inloggen_stepdefinition.1")); //$NON-NLS-1$
+System.out.println("test sprint0");
 }
 
 @When("user logs on with valid credentials")

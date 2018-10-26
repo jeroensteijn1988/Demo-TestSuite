@@ -42,8 +42,7 @@ formatter.match({
   "location": "Inloggen_stepdefinition.loginfeature_successful()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat seleniumgluecodeKennisavond.Inloggen_stepdefinition.loginfeature_successful(Inloggen_stepdefinition.java:39)\r\n\tat ✽.login is successful(src/test/java/features/inlogkennisavond.feature:7)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "the homepage is displayed",
@@ -53,6 +52,6 @@ formatter.match({
   "location": "Inloggen_stepdefinition.loginfeature_homepagedisplayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[<div "result">the browser is opened and showing the intranet homepage (PASSED : 5s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">user logs on with valid credentials (PASSED : 0s)</div>]]>
+      <![CDATA[<div "result">user logs on with valid credentials (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">login is successful (FAILED : 2s)</div>]]>
+      <![CDATA[<div "result">login is successful (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">the homepage is displayed (SKIPPED)</div>]]>
+      <![CDATA[<div "result">the homepage is displayed (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9277" started-at="2018-10-26T11:33:27Z" finished-at="2018-10-26T11:33:36Z">
+  <suite name="Default suite" duration-ms="7645" started-at="2018-10-26T11:48:12Z" finished-at="2018-10-26T11:48:20Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9277" started-at="2018-10-26T11:33:27Z" finished-at="2018-10-26T11:33:36Z">
+    <test name="Default test" duration-ms="7645" started-at="2018-10-26T11:48:12Z" finished-at="2018-10-26T11:48:20Z">
       <class name="runner.TestrunnerTestNG">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="setUpClass" is-config="true" duration-ms="157" started-at="2018-10-26T11:33:27Z" finished-at="2018-10-26T11:33:27Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="setUpClass" is-config="true" duration-ms="222" started-at="2018-10-26T11:48:12Z" finished-at="2018-10-26T11:48:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="SKIP" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="runScenario" duration-ms="8786" started-at="2018-10-26T11:33:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-26T11:33:36Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="runScenario" duration-ms="7206" started-at="2018-10-26T11:48:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-26T11:48:20Z">
           <params>
             <param index="0">
               <value>
@@ -39,30 +39,22 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at seleniumgluecodeKennisavond.Inloggen_stepdefinition.loginfeature_successful(Inloggen_stepdefinition.java:39)
-at ✽.login is successful(src/test/java/features/inlogkennisavond.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[<div "result">the browser is opened and showing the intranet homepage (PASSED : 5s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">user logs on with valid credentials (PASSED : 0s)</div>]]>
+              <![CDATA[<div "result">user logs on with valid credentials (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">login is successful (FAILED : 2s)</div>]]>
+              <![CDATA[<div "result">login is successful (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">the homepage is displayed (SKIPPED)</div>]]>
+              <![CDATA[<div "result">the homepage is displayed (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="tearDownClass" is-config="true" duration-ms="227" started-at="2018-10-26T11:33:36Z" finished-at="2018-10-26T11:33:36Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestrunnerTestNG@27f723]" name="tearDownClass" is-config="true" duration-ms="69" started-at="2018-10-26T11:48:20Z" finished-at="2018-10-26T11:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
